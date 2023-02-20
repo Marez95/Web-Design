@@ -1,0 +1,56 @@
+h1 {color: aqua;
+}
+
+p {
+    background-color: rgb(44, 176, 42);
+}
+*{
+    font-family:Arial, Helvetica, sans-serif
+}
+
+/* svi h2 tagovi koji se nalaze unutar div-a */
+
+div h2{
+    background-color: darkorange;
+}
+
+/* svi h2 tagovi koji su prvo koleno (direktni potomci) od div-a */
+
+div > h2 {
+    background-color: dimgray;
+}
+
+/* svi h2 tagovi koji su direktni potomci od ul koji su direktni potomci od div-a , ne radi sa trenutnom html strukturom! */
+div > ul > h2 {
+    background-color: royalblue;
+}
+
+/* radi! */
+div > ul h2 {
+    background-color: tomato;
+}
+
+ol.bgc-yellow {
+    background-color: blueviolet;
+    color: chartreuse;
+}
+/* svi ul tagovi koji imaju klasu bgc-yellow */
+
+ul.bgc-yellow a {
+    background-color: aquamarine;
+
+}
+
+/* promeniti pozadinsku boju a hrefa koji se nalazi u okviru ul taga sa klasom bgc-yellow */
+
+/* svi elementi koji imaju klasu color green i svi elementi koji ima klasu bgc yellow */
+
+/* prvi element koji ima id pera */
+
+#pera {
+
+}
+
+h2
+
+

@@ -1,0 +1,25 @@
+.first {
+    color: #00CED1;
+    opacity: 0.5;
+    
+}
+.second {
+    color:rgba(0, 206, 209, 0.5)
+}
+.third {
+    color: #87CEEB	
+}
+h1 {background-color: chartreuse;}
+h2 {background-color: gray;}
+h3 {background-color: lightcoral;}
+
+@font-face {
+    font-family: 'Noto Sans Tagbanwa' ;
+    src: url('NotoSansTagbanwa-Regular.ttf');
+}
+.second {
+    font-family: 'Noto Sans Tagbanwa', sans-serif;
+
+}
+
+

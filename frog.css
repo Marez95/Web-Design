@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+div.topheader {
+  background-color: aquamarine;
+  padding: 10px;
+}
+
+div.topheader h5 {
+    display: inline;
+    margin-left: 10px;
+    font-size: 18px;
+}
+div.topheader img {
+    height: 50px;
+}
+div.bottomheader li{
+    display: inline;
+    margin: 10px;
+}
+div.bottomheader {
+    background-color: darkgreen;
+    padding: 10px;
+    text-transform: uppercase;
+    color: white;
+}
+div.main {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#one {
+    width: 25%;
+    height: 330px;
+}
+#two {
+    width: 25%;
+    height: 200px;
+}
+#three {
+    width: 25%;
+    height: 330px;
+}
+#four {
+    width: 20%;
+    height: 200px;
+}
+    
+#email {
+    border-radius: 10px;
+}
+#message {
+    border-radius: 5px;
+}
+div.footer {
+    background-color: aquamarine;
+    padding: 60px;
+}
+
+#button {
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+}
+
+
+/* #linkedin {
+    width: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: aquamarine;
+   
+}
+#instagram {
+    width: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: aquamarine;
+} */
+
+.footer a {
+    display: inline-block;
+    border: 1px solid green;
+    text-decoration: none;
+    margin-left: 30px;
+    padding: 7px;
+    border-radius: 10px;
+}
+
+.footer a img {
+    width: 30px;
+}
+
+.footer h6 {
+    display: inline;
+    margin-left: 8px;
+}

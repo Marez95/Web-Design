@@ -1,0 +1,33 @@
+#prvi {text-transform: uppercase;
+    text-decoration: underline;
+    letter-spacing: 5px;
+    text-align: left;
+}
+#drugi {text-transform: lowercase;
+    text-decoration: line-through;
+    line-height: 200%;
+    text-align: right;
+}
+
+#treci {
+    text-align: center;
+}
+
+a {
+    text-shadow: 1px 1px;
+}
+a::before {
+    color: red;
+}
+a :visited {
+    color: black;
+}
+a :hover {
+    color: green;
+}
+a :active {
+    color: blue;
+}
+
+
+
